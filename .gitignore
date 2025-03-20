@@ -1,0 +1,6 @@
+
+#Ignorar arquivos CSV
+SIHAIH.csv
+
+#ignorar chave gemini
+api_key_gemini.txt
