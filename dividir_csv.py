@@ -31,9 +31,9 @@ def dividir_csv(input_csv, output_prefix="parte"):
         df_parte3 = df[parte3_colunas]
 
         # 3. Salvar cada parte em um arquivo CSV
-        df_parte1.to_csv(f"{output_prefix}1.csv", encoding='utf-8', index=False)
-        df_parte2.to_csv(f"{output_prefix}2.csv", encoding='utf-8', index=False)
-        df_parte3.to_csv(f"{output_prefix}3.csv", encoding='utf-8', index=False)
+        df_parte1.to_csv(f"{output_prefix}1.csv", index=False)
+        df_parte2.to_csv(f"{output_prefix}2.csv", index=False)
+        df_parte3.to_csv(f"{output_prefix}3.csv", index=False)
 
         print("Arquivo CSV dividido em três partes com sucesso.")
 

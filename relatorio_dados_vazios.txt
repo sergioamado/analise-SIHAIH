@@ -1,0 +1,485 @@
+Relatório de Dados Vazios
+==============================
+total de celulas do csv = 171,956,025
+total de celulas vazias = 29,979,932
+total de celulas preenchidas = 171,956,025 - 29979932 = 141,976,093
+Representa aproximadamente 17.43% do total de 171,956,025
+ (29979932 / 171956025) * 100 ≈ 17.43%
+
+Arquivo: parte1.csv
+------------------------------
+Coluna: identificador
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: Unnamed: 0
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UF_ZI
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: ANO_CMPT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: MES_CMPT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: ESPEC
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CGC_HOSP
+  Valores vazios: 509659
+  Percentual vazio: 31.71%
+
+Coluna: N_AIH
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: IDENT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CEP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: MUNIC_RES
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: NASC
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: SEXO
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_MES_IN
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_MES_AN
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_MES_AL
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_MES_TO
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: MARCA_UTI
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_INT_IN
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_INT_AN
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_INT_AL
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: UTI_INT_TO
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: DIAR_ACOM
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: QT_DIARIAS
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: PROC_SOLIC
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: PROC_REA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_SH
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_SP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_SADT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_RN
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_ACOMP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_ORTP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_SANGUE
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_SADTSR
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_TRANSP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_OBSANG
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_PED1AC
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_TOT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VAL_UTI
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+
+Arquivo: parte2.csv
+------------------------------
+Coluna: identificador
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: US_TOT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: DT_INTER
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: DT_SAIDA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: DIAG_PRINC
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: DIAG_SECUN
+  Valores vazios: 547389
+  Percentual vazio: 34.06%
+
+Coluna: COBRANCA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: NATUREZA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: GESTAO
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: RUBRICA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: IND_VDRL
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: MUNIC_MOV
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: COD_IDADE
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: IDADE
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: DIAS_PERM
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: MORTE
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: NACIONAL
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: NUM_PROC
+  Valores vazios: 1607075
+  Percentual vazio: 100.00%
+
+Coluna: CAR_INT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: TOT_PT_SP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CPF_AUT
+  Valores vazios: 1607075
+  Percentual vazio: 100.00%
+
+Coluna: HOMONIMO
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: NUM_FILHOS
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: INSTRU
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CID_NOTIF
+  Valores vazios: 1570999
+  Percentual vazio: 97.76%
+
+Coluna: CONTRACEP1
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CONTRACEP2
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: GESTRISCO
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: INSC_PN
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: SEQ_AIH5
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CBOR
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CNAER
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: VINCPREV
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: GESTOR_COD
+  Valores vazios: 383912
+  Percentual vazio: 23.89%
+
+Coluna: GESTOR_TP
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: GESTOR_CPF
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: GESTOR_DT
+  Valores vazios: 1607075
+  Percentual vazio: 100.00%
+
+Coluna: CNES
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: CNPJ_MANT
+  Valores vazios: 1062594
+  Percentual vazio: 66.12%
+
+
+Arquivo: parte3.csv
+------------------------------
+Coluna: identificador
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: INFEHOSP
+  Valores vazios: 1607075
+  Percentual vazio: 100.00%
+
+Coluna: CID_ASSO
+  Valores vazios: 640629
+  Percentual vazio: 39.86%
+
+Coluna: CID_MORTE
+  Valores vazios: 635344
+  Percentual vazio: 39.53%
+
+Coluna: COMPLEX
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: FINANC
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: FAEC_TP
+  Valores vazios: 1583109
+  Percentual vazio: 98.51%
+
+Coluna: REGCT
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: RACA_COR
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: ETNIA
+  Valores vazios: 267818
+  Percentual vazio: 16.66%
+
+Coluna: SEQUENCIA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: REMESSA
+  Valores vazios: 0
+  Percentual vazio: 0.00%
+
+Coluna: NAT_JUR
+  Valores vazios: 423135
+  Percentual vazio: 26.33%
+
+Coluna: AUD_JUST
+  Valores vazios: 1599941
+  Percentual vazio: 99.56%
+
+Coluna: SIS_JUST
+  Valores vazios: 1600134
+  Percentual vazio: 99.57%
+
+Coluna: VAL_SH_FED
+  Valores vazios: 291310
+  Percentual vazio: 18.13%
+
+Coluna: VAL_SP_FED
+  Valores vazios: 291310
+  Percentual vazio: 18.13%
+
+Coluna: VAL_SH_GES
+  Valores vazios: 291310
+  Percentual vazio: 18.13%
+
+Coluna: VAL_SP_GES
+  Valores vazios: 291310
+  Percentual vazio: 18.13%
+
+Coluna: VAL_UCI
+  Valores vazios: 477126
+  Percentual vazio: 29.69%
+
+Coluna: MARCA_UCI
+  Valores vazios: 477126
+  Percentual vazio: 29.69%
+
+Coluna: DIAGSEC1
+  Valores vazios: 1472225
+  Percentual vazio: 91.61%
+
+Coluna: DIAGSEC2
+  Valores vazios: 1604431
+  Percentual vazio: 99.84%
+
+Coluna: DIAGSEC3
+  Valores vazios: 1606538
+  Percentual vazio: 99.97%
+
+Coluna: DIAGSEC4
+  Valores vazios: 1606916
+  Percentual vazio: 99.99%
+
+Coluna: DIAGSEC5
+  Valores vazios: 1607049
+  Percentual vazio: 100.00%
+
+Coluna: DIAGSEC6
+  Valores vazios: 1607071
+  Percentual vazio: 100.00%
+
+Coluna: DIAGSEC7
+  Valores vazios: 1607074
+  Percentual vazio: 100.00%
+
+Coluna: DIAGSEC8
+  Valores vazios: 1607075
+  Percentual vazio: 100.00%
+
+Coluna: DIAGSEC9
+  Valores vazios: 1607075
+  Percentual vazio: 100.00%
+
+Coluna: TPDISEC1
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC2
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC3
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC4
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC5
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC6
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC7
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC8
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+Coluna: TPDISEC9
+  Valores vazios: 656235
+  Percentual vazio: 40.83%
+
+
