@@ -1,0 +1,6 @@
+Relatório de Linhas Problemáticas (Codificação UTF-8)
+--------------------------------------------------
+Total de linhas processadas: 1607076
+Total de linhas problemáticas encontradas: 0
+Total de linhas convertidas com sucesso: 0
+--------------------------------------------------

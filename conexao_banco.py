@@ -1,6 +1,7 @@
 import pandas as pd
 import psycopg2
 from sqlalchemy import create_engine
+import chardet
 
 def criar_banco_e_tabela(db_name, user, password, host, port, csv_file):
     """
@@ -15,13 +16,19 @@ def criar_banco_e_tabela(db_name, user, password, host, port, csv_file):
         csv_file (str): Caminho para o arquivo CSV.
     """
     try:
+        # Detectar a codificação do arquivo CSV
+        with open(csv_file, 'rb') as f:
+            result = chardet.detect(f.read())
+        encoding = result['encoding']
+        print(f"Codificação detectada: {encoding}")
+
         # Tentar conectar ao PostgreSQL (sem especificar o banco de dados)
         conn = psycopg2.connect(user=user, password=password, host=host, port=port)
         conn.autocommit = True
         cursor = conn.cursor()
 
         # Criar o banco de dados se ele não existir
-        cursor.execute(f"CREATE DATABASE SIHAIH;")
+        cursor.execute(f"CREATE DATABASE {db_name};")
         print(f"Banco de dados '{db_name}' criado com sucesso.")
 
         # Conectar ao banco de dados recém-criado
@@ -30,8 +37,8 @@ def criar_banco_e_tabela(db_name, user, password, host, port, csv_file):
         conn.autocommit = True
         cursor = conn.cursor()
 
-        # Ler o CSV usando Pandas
-        df = pd.read_csv(csv_file, encoding='utf-8', low_memory=False)
+        # Ler o CSV usando Pandas com a codificação detectada
+        df = pd.read_csv(csv_file, encoding=encoding, low_memory=False)
 
         # Imprimir informações sobre os tipos de dados
         print("\nTipos de dados detectados pelo Pandas:")
@@ -87,7 +94,7 @@ host = "localhost"
 port = "5432"  # Porta padrão do PostgreSQL
 
 # Arquivo CSV
-csv_file = "SIHAIH_utf8.csv"
+csv_file = "SIHAIH.csv"
 
 # Criar o banco de dados e a tabela
 criar_banco_e_tabela(db_name, user, password, host, port, csv_file)

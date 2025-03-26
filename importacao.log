@@ -1,0 +1,36 @@
+2025-03-26 13:11:10,445 - ERROR - Erro inesperado: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+Traceback (most recent call last):
+  File "D:\Sergio\Documents\GitHub\analise-SIHAIH\csv_banco.py", line 28, in criar_tabela_e_inserir_dados_postgres
+    conexao = psycopg2.connect(database=banco_dados, user=usuario,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+2025-03-26 13:28:09,672 - ERROR - Erro inesperado: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+Traceback (most recent call last):
+  File "D:\Sergio\Documents\GitHub\analise-SIHAIH\csv_banco.py", line 22, in criar_tabela_e_inserir_dados_postgres
+    conexao = psycopg2.connect(database=banco_dados, user=usuario,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+2025-03-26 13:34:40,931 - ERROR - Erro inesperado: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+Traceback (most recent call last):
+  File "D:\Sergio\Documents\GitHub\analise-SIHAIH\csv_banco.py", line 30, in criar_tabela_e_inserir_dados_postgres
+    conexao = psycopg2.connect(database=banco_dados, user=usuario,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+2025-03-26 13:55:21,387 - ERROR - Erro inesperado: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
+Traceback (most recent call last):
+  File "D:\Sergio\Documents\GitHub\analise-SIHAIH\csv_banco.py", line 31, in criar_tabela_e_inserir_dados_postgres
+    conexao = psycopg2.connect(database=banco_dados, user=usuario,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe7 in position 78: invalid continuation byte
